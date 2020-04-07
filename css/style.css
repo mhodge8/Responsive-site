@@ -1,0 +1,148 @@
+/*Global*/
+.container{
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+}
+
+body{
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+
+/*Header Logo*/
+header{
+  background: #ffffff;
+  border-bottom: #990000 solid;
+  color: #990000;
+}
+
+header h1{
+  font-family: 'Source Code Pro', monospace;
+  float: left;
+}
+
+
+/*Nav Bar*/
+nav{
+  float: right;
+}
+
+nav ul{
+  list-style-type: none;
+  margin-top: 40px;
+}
+
+nav li{
+  display: inline;
+  margin-right: 10px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: #990000;
+}
+
+
+
+/*feature*/
+#feature{
+  background: url(../img/feature.jpg) no-repeat;
+  background-position: center center;
+  width: 100%;
+  color: #ffffff;
+  border-bottom: #ffffff solid;
+}
+
+#feature h2{
+  padding: 0px 80px 10px 20px;
+  font-size: 80px;
+  margin: 0;
+}
+
+#feature p{
+  margin-bottom: 100px;
+}
+
+
+/*Tiles*/
+#tiles{
+  width: 100%;
+  text-align: center;
+}
+
+#tiles img{
+  width: 90px;
+  height: 90px;
+}
+
+.light-tile{
+  width: 32%;
+  float: left;
+  height: 250px;
+  padding: 5px;
+}
+
+.dark-tile{
+  width: 32%;
+  float: left;
+  background-color: #990000;
+  height: 250px;
+  padding: 5px;
+  color: #ffffff;
+}
+
+
+/*Call to Action*/
+#call-to-action{
+  border-top: #ffffff solid ;
+  background-color: #990000;
+  width: 100%;
+  color: #ffffff;
+  padding: 5px;
+}
+
+#call-to-action h3{
+  float: left;
+  margin-top: 30px;
+}
+
+#call-to-action form{
+  float: right;
+  margin: 25px 0px;
+}
+
+input{
+  height: 30px;
+  width: 200px;
+}
+
+button{
+  height: 38px;
+  color: #990000;
+  background-color: #ffffff;
+  padding: 10px;
+}
+
+footer{
+  text-align: center;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
