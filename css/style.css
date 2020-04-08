@@ -156,7 +156,27 @@ footer{
   font-size: 14px;
 }
 
+/*Programs | main*/
+article li{
+  list-style: none;
+  background: #e6e6e6;
+  border: #990000 solid;
+  padding: 20px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
 
+#bot-main{
+  width: 100%;
+  background: #990000 center center;
+  padding: 10px 20px 10px 20px;
+  color: #ffffff;
+}
+
+#bot-main h3{
+  float: left;
+  width: 60%;
+}
 
 
 
