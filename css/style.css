@@ -5,6 +5,11 @@
   margin: auto;
 }
 
+.container2{
+  overflow: hidden;
+  margin: auto;
+}
+
 body{
   font-size: 18px;
   font-family: sans-serif;
@@ -156,6 +161,7 @@ footer{
   font-size: 14px;
 }
 
+
 /*Programs | main*/
 article li{
   list-style: none;
@@ -179,9 +185,21 @@ article li{
 }
 
 
+/*About us | Staff*/
+#staff img{
+  width: 250px;
+  height: 250px
+}
 
+#staff img{
+  float: left;
+  margin: 8px;
+}
 
-
+#staff figcaption{
+  font-size: 20px;
+  padding-top: 230px;
+}
 
 
 
