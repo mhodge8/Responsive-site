@@ -52,7 +52,7 @@ nav li{
 nav li a{
   text-decoration: none;
   color: #990000;
-  padding: 20px 5px 40px 5px;
+  padding: 20px 5px 20px 5px;
 }
 
 .current a{
@@ -72,7 +72,7 @@ nav a:hover{
 
 /*feature*/
 #feature{
-  background: url(../img/feature.jpg) no-repeat;
+  background: url(../img/feature.jpg) no-repeat 0px -400px;
   background-position: center center;
   width: 100%;
   color: #ffffff;
@@ -83,16 +83,17 @@ nav a:hover{
   padding: 0px 80px 10px 20px;
   font-size: 80px;
   margin: 0;
+  text-align: center;
 }
 
 #feature p{
   margin-bottom: 100px;
+    text-align: center;
 }
 
 
 /*Tiles*/
 #tiles{
-  width: 100%;
   text-align: center;
 }
 
@@ -102,14 +103,14 @@ nav a:hover{
 }
 
 .light-tile{
-  width: 32%;
+  width: 30%;
   float: left;
   height: 250px;
   padding: 5px;
 }
 
 .dark-tile{
-  width: 32%;
+  width: 30%;
   float: left;
   background-color: #990000;
   height: 250px;
@@ -124,7 +125,7 @@ nav a:hover{
   background-color: #990000;
   width: 100%;
   color: #ffffff;
-  padding: 5px;
+  padding: 10px;
 }
 
 #call-to-action h3{
@@ -187,8 +188,8 @@ article li{
 
 /*About us | Staff*/
 #staff img{
-  width: 250px;
-  height: 250px
+  width: 300px;
+  height: 300px;
 }
 
 #staff img{
@@ -198,7 +199,7 @@ article li{
 
 #staff figcaption{
   font-size: 20px;
-  padding-top: 230px;
+  padding-top: 280px;
 }
 
 /*Gallery*/
@@ -208,7 +209,58 @@ article li{
   margin: 10px;
 }
 
-
+@media(max-width: 1000px){
+  header h1,
+  nav,
+  nav li,
+  #tiles .dark-tile,
+  #tiles .light-tile,
+  #call-to-action h3,
+  #call-to-action form,
+  #bot-main h3,
+  #bot-main form,
+  #feature h1,
+  #staff,
+  #staff img,
+  #staff figcaption,
+  #article-main,
+  ul
+  {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+  
+  #bot-main{
+    padding: 10px;
+  }
+  
+  #staff img{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  
+  #staff figcaption{
+    padding-top: 10px;
+  }
+  
+  form input, button, #call-to-action{
+    width: 100%;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  #gallery img{
+    width: 320px;
+    height: 180px;
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+}
 
 
 
