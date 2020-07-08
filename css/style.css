@@ -202,19 +202,6 @@ article li{
   margin-right: 40px;
 }
 
-#bot-main{
-  width: 100%;
-  background: #990000 center center;
-  padding: 10px 20px 10px 20px;
-  color: #ffffff;
-}
-
-#bot-main h3{
-  float: left;
-  width: 60%;
-}
-
-
 /*About us | Staff*/
 #staff img{
   width: 300px;
